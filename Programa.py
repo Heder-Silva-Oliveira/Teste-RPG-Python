@@ -9,15 +9,19 @@ nome = str(input("Ecolha o nome do personagem: "))
 menu(criaturas)
 escolha = int(input("Ecolha a Raça: "))
 raca = ''
-if escolha == 1:
-    raca = 'Orque'
-elif escolha == 2:
-    raca = 'Elfo'
-elif escolha == 3:
-    raca = 'Humano'
-else:
-    print('Raça não existente')
-    escolha = input("Ecolha a Raça: ")
+while True:
+    if escolha == 1:
+        raca = 'Orque'
+        break
+    elif escolha == 2:
+        raca = 'Elfo'
+        break
+    elif escolha == 3:
+        raca = 'Humano'
+        break
+    else:
+        print('Raça não existente')
+        escolha = input("Ecolha a Raça: ")
 
 
 personagem["Nome"] = nome
