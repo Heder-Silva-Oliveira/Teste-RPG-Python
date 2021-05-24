@@ -3,7 +3,6 @@ def linha(tam = 40):
 
 
 def cabeçalho(txt):
-    print(linha())
     print(txt.center(40))
     print(linha())
 
