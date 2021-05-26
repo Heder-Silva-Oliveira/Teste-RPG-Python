@@ -1,7 +1,7 @@
 def intro (txt):
     if txt == 'Orque':
-        print("  O salão esta em silencio, todos estão focando suas energias para invocar, \n" 
-        "mais uma aurea porem desta vez um nivel superior, você esta sentado no meio do pendagrama\n" 
+        print("  O salão esta em silencio, todos estão focando suas energias para invocar, uma aurea \n" 
+        ",porem desta vez não é uma qualquer, esta é superior, você esta sentado no meio do pendagrama\n" 
         "quando percebe uma pertibação nos seus sentidos, você ja não consegue distinguir o que é \n" 
         "oufato ou tato, oque é paladar ou audição, tudo esta confuso, você soua com friu, sente \n" 
         "sede estando saciado você não sente o chão, você são sente o ar, você não ente nada.")
@@ -14,14 +14,14 @@ def intro (txt):
 
 
 
-def jogoorque (escolha):
+def jogoorque (decisao):
 
-    if escolha == 1:
-        print('Você tenta abrii os olhos, se esforça, você deixa de pensar nos textos lidos, nos rituais e palavras,\n' 
+    if decisao == 1:
+        print('Você tenta abrir os olhos, se esforça, você deixa de pensar nos textos lidos, nos rituais e palavras,\n' 
         'e se consentra em se livrar desta senção, e por fim consegue seus olhos se abrem grandes e assustados,\n' 
         'todos seus sentidos voltam ao normal como se nada houvera mudado. E o sentimento vem forte em você o\n' 
         'sentimento de perda, você sabe que falhou, que jamais conseguirá novamente tentar conjurar essa aurea superior.')
-    if escolha == 2:
+    if decisao == 2:
         print('Você não se intimida com a força da aurea, você sabe que isso é apenas uma tentativa dela de não ser\n' 
         'conjurada, seu foco aumenta, você se consentra, pouco a pouco sua visão eteria começa a focar e distinguir\n' 
         'seu objetivo, uma silueta é revelada, você encontrou nos confis do limbo, você esta de frente para a\n' 

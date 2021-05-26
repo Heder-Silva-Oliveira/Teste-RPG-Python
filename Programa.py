@@ -1,6 +1,7 @@
 from Organizador import *
 from random import randint
 from Roteiro import *
+from time import sleep
 
 criaturas = ('Orque', 'Elfo', 'Humano')
 tipo = ('Guereiro', 'Caçador', 'Mago')
@@ -46,8 +47,8 @@ for i, k in atributos.items():
 personagem["Nome"] = nome
 personagem['Raça'] = raca
 personagem['Classe'] = classe
-print(personagem)
-print(atributos)
+#print(personagem)
+#print(atributos)
 
 if personagem['Raça'] == 'Orque':
     atributos['Força'] += 2
@@ -75,5 +76,13 @@ for i, k in atributos.items():
     if k > 20:
         k = 20
 
-print(intro(personagem['Raça']))
-print(jogoorque(escolha1))
+
+intro(personagem['Raça'])
+sleep(20)
+cabeçalho('Tudo isso comça a te incomodar e você fica diante de duas escolhas')
+tiktak(3)
+print()
+escolha = ('Você tenta abrir o olho e se livrar disso', 'VocÊ tenta manter o foco e encontrar a reposta')
+menu(escolha)
+decisao = int(input('Qual sua decisão?: '))
+jogoorque(decisao)
