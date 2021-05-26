@@ -76,3 +76,4 @@ for i, k in atributos.items():
         k = 20
 
 print(intro(personagem['Raça']))
+print(jogoorque(escolha1))
