@@ -1,8 +1,14 @@
-introdução = "O salão esta em silencio, todos estão focando suas energias para invocar," \
-             "mais uma aurea porem desta vez um nivel superior, você esta sentado no meio do pendagrama" \
-             "quando percebe uma pertibação nos seus sentidos, você ja não consegue distinguir o que é oufato ou tato" \
-             "oque é paladar ou audição, tudo esta confuso, você soua com friu, sente sede estando saciado" \
-             "você não sente o chão, você são sente o ar, você não ente nada."
+def intro (txt):
+    if txt == 'Orque':
+     return  "O salão esta em silencio, todos estão focando suas energias para invocar, \n" \
+     " mais uma aurea porem desta vez um nivel superior, você esta sentado no meio do pendagrama\n" \
+     " quando percebe uma pertibação nos seus sentidos, você ja não consegue distinguir o que é oufato ou tato\n" \
+     " oque é paladar ou audição, tudo esta confuso, você soua com friu, sente sede estando saciado\n" \
+     " você não sente o chão, você são sente o ar, você não ente nada."
+
+
+
+
 capitulo1 = ''
 escolha1 = 'Você tenta abrii os olhos, se esforça, você deixa de pensar nos textos lidos, nos rituais e palavras,' \
            'e se consentra em se livrar desta senção, e por fim consegue seus olhos se abrem grandes e assustados, ' \

@@ -1,5 +1,6 @@
 from Organizador import *
 from random import randint
+from Roteiro import *
 
 criaturas = ('Orque', 'Elfo', 'Humano')
 tipo = ('Guereiro', 'Caçador', 'Mago')
@@ -42,16 +43,17 @@ while True:
 for i, k in atributos.items():
     atributos[i] = randint(1, 20)
 
-
 personagem["Nome"] = nome
 personagem['Raça'] = raca
 personagem['Classe'] = classe
 print(personagem)
 print(atributos)
+
 if personagem['Raça'] == 'Orque':
     atributos['Força'] += 2
     atributos['Constituição'] += 1
     atributos['Carisma'] -= 2
+
 if personagem['Raça'] == 'Elfo':
     atributos['Inteligência'] += 2
     atributos['Sabedoria'] += 1
@@ -69,4 +71,8 @@ if personagem['Classe'] == 'Caçador':
 if personagem['Classe'] == 'Mago':
     atributos['Sabedoria'] += 2
     atributos['Inteligência'] += 1
-print(atributos)
+for i, k in atributos.items():
+    if k > 20:
+        k = 20
+
+print(intro(personagem['Raça']))
