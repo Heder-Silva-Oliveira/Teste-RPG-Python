@@ -48,3 +48,25 @@ personagem['Raça'] = raca
 personagem['Classe'] = classe
 print(personagem)
 print(atributos)
+if personagem['Raça'] == 'Orque':
+    atributos['Força'] += 2
+    atributos['Constituição'] += 1
+    atributos['Carisma'] -= 2
+if personagem['Raça'] == 'Elfo':
+    atributos['Inteligência'] += 2
+    atributos['Sabedoria'] += 1
+    atributos['Força'] -= 2
+if personagem['Raça'] == 'Humano':
+    atributos['Força'] += 1
+    atributos['Destreza'] += 1
+    atributos['Carisma'] -= 1
+if personagem['Classe'] == 'Guerreiro':
+    atributos['Força'] += 2
+    atributos['Constituição'] += 1
+if personagem['Classe'] == 'Caçador':
+    atributos['Destreza'] += 2
+    atributos['Carisma'] += 1
+if personagem['Classe'] == 'Mago':
+    atributos['Sabedoria'] += 2
+    atributos['Inteligência'] += 1
+print(atributos)
