@@ -13,7 +13,6 @@ def intro (txt):
         "o local da emboscada, mas você ja esta familarizzado com isso e não deixa a emoção tomar conta. ")
 
 
-
 def jogoorque (decisao):
     if decisao == 1:
         print('  Você tenta abrir os olhos, se esforça, você deixa de pensar nos textos lidos, nos rituais e palavras,\n' 

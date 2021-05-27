@@ -10,9 +10,13 @@ def cap1orq():
     escolha = ('Você tenta abrir o olho e se livrar disso', 'Você tenta manter o foco e encontrar a reposta')
     menu(escolha)
 
-def cap2orq(txt):
-    if txt == 1:
-        print()
+
+#se for a escolha 2
+def cap2orq():
+    cabecalho('Ao seu redor varios outros magos, a maioria ja havia desistido, e apenas dois ainda continuam o intento')
+    sleep(5)
+    escolha2 = ('Você decide deixa-los concentrados e conseguir a aurea', 'Você tenta discretamente desconcentra-los')
+    menu(escolha2)
 
 
 
