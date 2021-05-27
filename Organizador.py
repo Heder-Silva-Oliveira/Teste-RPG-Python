@@ -1,4 +1,3 @@
-from Programa import *
 from time import sleep
 
 
@@ -33,9 +32,5 @@ def tiktak(tempo):
 
 
 
-def rota(dic):
-    if personagem['Raça'] == 'Orque':
-        cap1orq()
-    if personagem['Raça'] == 'Elfo':
-        cap1elf()
+
 

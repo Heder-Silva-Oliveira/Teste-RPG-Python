@@ -1,8 +1,5 @@
-from Organizador import *
 from random import randint
-from Organizador import cabecalho
 from Roteiro import *
-from time import sleep
 from Orque import *
 from Elfo import *
 
@@ -82,10 +79,12 @@ for i, k in atributos.items():
 
 
 intro(personagem['Raça'])
-sleep(3)
+sleep(2)
 if personagem['Raça'] == 'Orque':
     cap1orq()
-if personagem['Raça'] == 'Elfo':
-     cap1elf()
-decisao = int(input('Qual sua decisão?: '))
-jogoorque(decisao)
+    decisao = int(input('Qual sua decisão?: '))
+    jogoorque(decisao)
+elif personagem['Raça'] == 'Elfo':
+    cap1elf()
+    decisao = int(input('Qual sua decisão?: '))
+    jogoelfo(decisao)
