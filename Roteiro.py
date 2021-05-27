@@ -15,7 +15,6 @@ def intro (txt):
 
 
 def jogoorque (decisao):
-
     if decisao == 1:
         print('Você tenta abrir os olhos, se esforça, você deixa de pensar nos textos lidos, nos rituais e palavras,\n' 
         'e se consentra em se livrar desta senção, e por fim consegue seus olhos se abrem grandes e assustados,\n' 
@@ -26,3 +25,8 @@ def jogoorque (decisao):
         'conjurada, seu foco aumenta, você se consentra, pouco a pouco sua visão eteria começa a focar e distinguir\n' 
         'seu objetivo, uma silueta é revelada, você encontrou nos confis do limbo, você esta de frente para a\n' 
         'portadora da aurea')
+
+
+def jogoelfo (decisao):
+    if decisao == 1:
+        print('')

@@ -1,12 +1,16 @@
 from Organizador import *
 from random import randint
+from Organizador import cabecalho
 from Roteiro import *
 from time import sleep
+from Orque import *
+from Elfo import *
+
 
 criaturas = ('Orque', 'Elfo', 'Humano')
 tipo = ('Guereiro', 'Caçador', 'Mago')
 atributos = {'Força': 0, 'Destreza': 0, 'Constituição': 0, 'Inteligência': 0,'Sabedoria': 0, 'Carisma': 0}
-cabeçalho('Criando o personagem')
+cabecalho('Criando o personagem')
 personagem = {}
 nome = str(input("Ecolha o nome do personagem: "))
 menu(criaturas)
@@ -78,11 +82,10 @@ for i, k in atributos.items():
 
 
 intro(personagem['Raça'])
-sleep(20)
-cabeçalho('Tudo isso comça a te incomodar e você fica diante de duas escolhas')
-tiktak(3)
-print()
-escolha = ('Você tenta abrir o olho e se livrar disso', 'VocÊ tenta manter o foco e encontrar a reposta')
-menu(escolha)
+sleep(3)
+if personagem['Raça'] == 'Orque':
+    cap1orq()
+if personagem['Raça'] == 'Elfo':
+     cap1elf()
 decisao = int(input('Qual sua decisão?: '))
 jogoorque(decisao)

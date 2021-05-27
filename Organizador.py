@@ -1,3 +1,4 @@
+from Programa import *
 from time import sleep
 
 
@@ -5,14 +6,14 @@ def linha(tam = 40):
     return '-' *tam
 
 
-def cabeçalho(txt):
+def cabecalho(txt):
     print(linha())
     print(txt.center(40))
     print(linha())
 
 
 def menu(lista):
-    cabeçalho(' ')
+    cabecalho(' ')
     c = 1
     for item in lista:
         print(f'{c} - {item}')
@@ -29,3 +30,12 @@ def tiktak(tempo):
         c += 1
         if tempo == c:
             break
+
+
+
+def rota(dic):
+    if personagem['Raça'] == 'Orque':
+        cap1orq()
+    if personagem['Raça'] == 'Elfo':
+        cap1elf()
+
