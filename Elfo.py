@@ -10,7 +10,9 @@ def cap1elf():
 
 
 def cap2elf():
-    cabecalho('')
+    cabecalho('Você consegue abater e esfolar um os melhores servos, agora você tem carne, couro sobrando')
+    escolha = ('Você vai direto para vila vender o ecedente', 'Você vai direto para casa guardar tudo')
+    menu(escolha)
 
 
 
