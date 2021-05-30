@@ -52,31 +52,7 @@ personagem['Classe'] = classe
 #print(personagem)
 #print(atributos)
 
-'''if personagem['Raça'] == 'Orque':
-    atributos['Força'] += 2
-    atributos['Constituição'] += 1
-    atributos['Carisma'] -= 2
-if personagem['Raça'] == 'Elfo':
-    atributos['Inteligência'] += 2
-    atributos['Sabedoria'] += 1
-    atributos['Força'] -= 2
-if personagem['Raça'] == 'Humano':
-    atributos['Força'] += 1
-    atributos['Destreza'] += 1
-    atributos['Carisma'] -= 1
-    
-if personagem['Classe'] == 'Guerreiro':
-    atributos['Força'] += 2
-    atributos['Constituição'] += 1
-if personagem['Classe'] == 'Caçador':
-    atributos['Destreza'] += 2
-    atributos['Carisma'] += 1
-if personagem['Classe'] == 'Mago':
-    atributos['Sabedoria'] += 2
-    atributos['Inteligência'] += 1
-for i, k in atributos.items():
-    if k > 20:
-        k = 20'''
+
 print(atributos)
 classmago = {'Sabedoria': 2, 'Inteligência': 1}
 classguerreiro = {'Força': 2, 'Constituição': 1}
@@ -92,9 +68,11 @@ def classper(escolha1):
         return classmago
 #criar uma def para retornar a clase do personagem
 for i in classper(escolha1):
-    atributos[i] += classcacador[i]
+    atributos[i] += classper(escolha1)[i]
     cont += 1
-
+for i, k in atributos.items():
+    if k > 20:
+        k = 20
 print(atributos)
 
 
