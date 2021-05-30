@@ -1,7 +1,7 @@
 from Organizador import *
 from time import sleep
 
-
+from Organizador import cabecalho
 
 
 def cap1orq():

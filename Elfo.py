@@ -1,5 +1,6 @@
 from Organizador import *
 from time import sleep
+from Organizador import *
 
 
 def cap1elf():
@@ -11,6 +12,7 @@ def cap1elf():
 
 def cap2elf():
     cabecalho('Você consegue abater e esfolar um os melhores servos, agora você tem carne, couro sobrando')
+    sleep(5)
     escolha = ('Você vai direto para vila vender o ecedente', 'Você vai direto para casa guardar tudo')
     menu(escolha)
 

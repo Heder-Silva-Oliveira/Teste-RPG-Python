@@ -1,7 +1,8 @@
 from random import randint
-from Roteiro import *
+from Organizador import *
 from Orque import *
 from Elfo import *
+from Roteiro import *
 
 
 criaturas = ('Orque', 'Elfo', 'Humano')
@@ -51,11 +52,10 @@ personagem['Classe'] = classe
 #print(personagem)
 #print(atributos)
 
-if personagem['Raça'] == 'Orque':
+'''if personagem['Raça'] == 'Orque':
     atributos['Força'] += 2
     atributos['Constituição'] += 1
     atributos['Carisma'] -= 2
-
 if personagem['Raça'] == 'Elfo':
     atributos['Inteligência'] += 2
     atributos['Sabedoria'] += 1
@@ -64,6 +64,7 @@ if personagem['Raça'] == 'Humano':
     atributos['Força'] += 1
     atributos['Destreza'] += 1
     atributos['Carisma'] -= 1
+    
 if personagem['Classe'] == 'Guerreiro':
     atributos['Força'] += 2
     atributos['Constituição'] += 1
@@ -75,7 +76,28 @@ if personagem['Classe'] == 'Mago':
     atributos['Inteligência'] += 1
 for i, k in atributos.items():
     if k > 20:
-        k = 20
+        k = 20'''
+print(atributos)
+classmago = {'Sabedoria': 2, 'Inteligência': 1}
+classguerreiro = {'Força': 2, 'Constituição': 1}
+classcacador = {'Destreza': 2, 'Carisma': 1}
+classetotal = ([classmago], [classguerreiro], [classcacador])
+cont = 0
+def classper(escolha1):
+    if escolha1 == 1:
+        return classguerreiro
+    if escolha1 == 2:
+        return classcacador
+    if escolha1 == 3:
+        return classmago
+#criar uma def para retornar a clase do personagem
+for i in classper(escolha1):
+    atributos[i] += classcacador[i]
+    cont += 1
+
+print(atributos)
+
+
 
 
 intro(personagem['Raça'])
@@ -84,7 +106,11 @@ if personagem['Raça'] == 'Orque':
     cap1orq()
     decisao = int(input('Qual sua decisão?: '))
     jogoorque(decisao)
+    sleep(5)
+    cap2orq()
 elif personagem['Raça'] == 'Elfo':
     cap1elf()
     decisao = int(input('Qual sua decisão?: '))
     jogoelfo(decisao)
+    sleep(5)
+    cap2elf()

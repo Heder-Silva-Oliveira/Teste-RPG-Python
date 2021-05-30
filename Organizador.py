@@ -1,6 +1,5 @@
 from time import sleep
 
-
 def linha(tam = 40):
     return '-' *tam
 
@@ -29,6 +28,9 @@ def tiktak(tempo):
         c += 1
         if tempo == c:
             break
+
+
+
 
 
 
