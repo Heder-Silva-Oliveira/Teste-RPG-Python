@@ -1,4 +1,4 @@
-def intro (txt):
+def intro(txt):
     if txt == 'Mago':
         print("  O salão esta em silencio, todos estão focando suas energias para invocar, uma aurea \n" 
         ",porem desta vez não é uma qualquer, esta é superior, você esta sentado no meio do pendagrama\n" 
@@ -11,9 +11,14 @@ def intro (txt):
         "cacos pisando em folhas e galhos secos, e barulho tipico que para você ja é conhecido o chão torna-se\n" 
         "claros aos seus ouvidos, e uma grata sensação de vitotia vem a tona, a final você acertou comprecisão\n" 
         "o local da emboscada, mas você ja esta familarizzado com isso e não deixa a emoção tomar conta. ")
+    if txt == 'Guerreiro':
+        print('O calor da batalha ja  fora muitas vezes tetado por você, os gritos de dor as suplicas pela vida\n'
+        'tudo isso você ja conhece, mas esta batalha te parece mais dificil, talvez pela quantidade de inimigos\n'
+        'ou tambem pelo calor do sol que os gastiga, mas o certo é, você esta cansado  mais de uma ves no ultimo\n'
+        'você consegue desviar fios de estadas e machados, você vê ao seu lado camaradas morreno, camaradas matando\n'
+        'suas forças só etão se mantendo graças a seu condicionamento fisico e sua coragem, porem tuo tem seu limite.')
 
-
-def jogomago (decisao):
+def jogomago(decisao):
     if decisao == 1:
         print('  Você tenta abrir os olhos, se esforça, você deixa de pensar nos textos lidos, nos rituais e palavras,\n' 
         'e se consentra em se livrar desta senção, e por fim consegue seus olhos se abrem grandes e assustados,\n' 
@@ -26,7 +31,7 @@ def jogomago (decisao):
         'portadora da aurea')
 
 
-def jogocacador (decisao):
+def jogocacador(decisao):
     if decisao == 1:
         print('  Você sabe que não é a melhor ideia proceguir com o intento, e rapido você escala um grande salgueiro,\n'
         'revelando muitos servos e vario com galhadas enormes você sabe que elas lhe renderam uma boas moedas de ouro\n'
@@ -36,3 +41,17 @@ def jogocacador (decisao):
         'e em um instante todos se dispersam e você pode notar que muito deles tinham enormes galhadas, e estes você não\n'
         'conseguirá emboscar, e o seu abate te dará pouco menos do que você esperava, afinal era um velho servo, ferido\n'
         'e sem chifres')
+
+
+
+def jogoguerreiro(decisao):
+    if decisao == 1:
+        print('Você lentamente vai se afatando a linha e frente, até chegar na retarguarda onde não há choeque de\n'
+        'espadas mas há e muito gritos de dor pois é aqui onde os mutilaos são traziddos para os cuidados dos medicos\n'
+        'você se senta e bebe um odre de água, seu corpo agradece, os poucos momentos de descanso é o suficiente para\n'
+        'seu vigor voltar')
+    if decisao == 2:
+        print('Você grita palavras de ordens muito mais alto que os gritos dos outros, você vê seus aliados ao seu redor\n'
+        'respondendo e avançando com mais força e por um momento isso foi suficiente para intimidar varios os adverarios\n'
+        'que estavam ao seu redor, mas esse seu esforço foi alem doque seu corpo é capaz, suas vistas escurecem e os son\n'
+        'sobem e o silencio chega até você')

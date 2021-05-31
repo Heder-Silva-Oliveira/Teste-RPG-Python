@@ -3,6 +3,7 @@ from Organizador import *
 from Mago import *
 from Caçador import *
 from Roteiro import *
+from Guerreiro import *
 
 
 criaturas = ('Orque', 'Elfo', 'Humano')
@@ -86,3 +87,9 @@ elif personagem['Classe'] == 'Caçador':
     jogocacador(decisao)
     sleep(5)
     cap2cac()
+elif personagem['Classe'] == 'Guerreiro':
+    cap1gue()
+    decisao = int(input('Qual sua decisão?: '))
+    jogoguerreiro(decisao)
+    sleep(5)
+    cap2gue()
