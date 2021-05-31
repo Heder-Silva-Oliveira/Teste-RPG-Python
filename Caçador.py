@@ -3,14 +3,14 @@ from time import sleep
 from Organizador import *
 
 
-def cap1elf():
+def cap1cac():
     cabecalho('tensionando o arco, em direção ao barulho, você ja de pé escuta muitos outros destes barulhos')
     sleep(5)
     escolha = ('Você tenta se esconder', 'Você atira a flexa no servo')
     menu(escolha)
 
 
-def cap2elf():
+def cap2cac():
     cabecalho('Você consegue abater e esfolar um os melhores servos, agora você tem carne, couro sobrando')
     sleep(5)
     escolha = ('Você vai direto para vila vender o ecedente', 'Você vai direto para casa guardar tudo')

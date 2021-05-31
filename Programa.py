@@ -1,7 +1,7 @@
 from random import randint
 from Organizador import *
-from Orque import *
-from Elfo import *
+from Mago import *
+from Caçador import *
 from Roteiro import *
 
 
@@ -49,9 +49,6 @@ for i, k in atributos.items():
 personagem["Nome"] = nome
 personagem['Raça'] = raca
 personagem['Classe'] = classe
-#print(personagem)
-#print(atributos)
-
 
 print(atributos)
 classmago = {'Sabedoria': 2, 'Inteligência': 1}
@@ -66,7 +63,6 @@ def classper(escolha1):
         return classcacador
     if escolha1 == 3:
         return classmago
-#criar uma def para retornar a clase do personagem
 for i in classper(escolha1):
     atributos[i] += classper(escolha1)[i]
     cont += 1
@@ -76,19 +72,17 @@ for i, k in atributos.items():
 print(atributos)
 
 
-
-
-intro(personagem['Raça'])
+intro(personagem['Classe'])
 sleep(2)
-if personagem['Raça'] == 'Orque':
-    cap1orq()
+if personagem['Classe'] == 'Mago':
+    cap1mag()
     decisao = int(input('Qual sua decisão?: '))
-    jogoorque(decisao)
+    jogomago(decisao)
     sleep(5)
-    cap2orq()
-elif personagem['Raça'] == 'Elfo':
-    cap1elf()
+    cap2mag()
+elif personagem['Classe'] == 'Caçador':
+    cap1cac()
     decisao = int(input('Qual sua decisão?: '))
-    jogoelfo(decisao)
+    jogocacador(decisao)
     sleep(5)
-    cap2elf()
+    cap2cac()

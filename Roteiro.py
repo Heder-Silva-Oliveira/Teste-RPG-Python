@@ -1,11 +1,11 @@
 def intro (txt):
-    if txt == 'Orque':
+    if txt == 'Mago':
         print("  O salão esta em silencio, todos estão focando suas energias para invocar, uma aurea \n" 
         ",porem desta vez não é uma qualquer, esta é superior, você esta sentado no meio do pendagrama\n" 
         "quando percebe uma pertubação nos seus sentidos, você ja não consegue distinguir o que é \n" 
         "oufato ou tato, oque é paladar ou audição, tudo esta confuso, você soua com frio, sente \n" 
         "sede estando saciado você não sente o chão, você são sente o ar, você não ente nada.")
-    if txt == 'Elfo':
+    if txt == 'Caçador':
         print("  As folhas farfalham ao vendo, passaros grasnam e esses são os sons mais altos que você\n" 
         "ouve porem seus longos anos em florestam e dão a habilidade de escutar alem disso, sons de\n" 
         "cacos pisando em folhas e galhos secos, e barulho tipico que para você ja é conhecido o chão torna-se\n" 
@@ -13,7 +13,7 @@ def intro (txt):
         "o local da emboscada, mas você ja esta familarizzado com isso e não deixa a emoção tomar conta. ")
 
 
-def jogoorque (decisao):
+def jogomago (decisao):
     if decisao == 1:
         print('  Você tenta abrir os olhos, se esforça, você deixa de pensar nos textos lidos, nos rituais e palavras,\n' 
         'e se consentra em se livrar desta senção, e por fim consegue seus olhos se abrem grandes e assustados,\n' 
@@ -26,7 +26,7 @@ def jogoorque (decisao):
         'portadora da aurea')
 
 
-def jogoelfo (decisao):
+def jogocacador (decisao):
     if decisao == 1:
         print('  Você sabe que não é a melhor ideia proceguir com o intento, e rapido você escala um grande salgueiro,\n'
         'revelando muitos servos e vario com galhadas enormes você sabe que elas lhe renderam uma boas moedas de ouro\n'
