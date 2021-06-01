@@ -93,3 +93,4 @@ elif personagem['Classe'] == 'Guerreiro':
     jogoguerreiro(decisao)
     sleep(5)
     cap2gue()
+print("CONTINUA...")

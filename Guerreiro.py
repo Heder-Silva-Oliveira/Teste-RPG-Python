@@ -13,7 +13,7 @@ def cap1gue():
 
 #se for a escolha 2
 def cap2gue():
-    cabecalho('continua')
+    cabecalho('A batalha acabou, sem gloria porem com a vitoria, você você vê alguns amigos, proximo a fogueira')
     sleep(5)
-    escolha2 = ('continua', 'continua')
+    escolha2 = ('Você vai ao encontro beber sobre a vitoria', 'Você vai até os feridos consola-los')
     menu(escolha2)
