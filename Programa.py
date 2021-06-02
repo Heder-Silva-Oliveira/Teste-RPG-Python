@@ -64,12 +64,16 @@ def classper(escolha1):
         return classcacador
     if escolha1 == 3:
         return classmago
+
 for i in classper(escolha1):
     atributos[i] += classper(escolha1)[i]
     cont += 1
 for i, k in atributos.items():
     if k > 20:
         k = 20
+    if k < 1:
+        k = 1
+    print(f'Seu atributo {i} recebe o valor {k}')
 print(atributos)
 
 
