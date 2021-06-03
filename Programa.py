@@ -52,9 +52,9 @@ personagem['Raça'] = raca
 personagem['Classe'] = classe
 
 print(atributos)
-classmago = {'Sabedoria': 2, 'Inteligência': 1}
-classguerreiro = {'Força': 2, 'Constituição': 1}
-classcacador = {'Destreza': 2, 'Carisma': 1}
+classmago = {'Sabedoria': 2, 'Inteligência': 1, 'Força': -1}
+classguerreiro = {'Força': 2, 'Constituição': 1, 'Inteligência': -1}
+classcacador = {'Destreza': 2, 'Carisma': 1, 'Força': -1}
 classetotal = ([classmago], [classguerreiro], [classcacador])
 cont = 0
 def classper(escolha1):
@@ -65,17 +65,18 @@ def classper(escolha1):
     if escolha1 == 3:
         return classmago
 
+
 for i in classper(escolha1):
     atributos[i] += classper(escolha1)[i]
+    if atributos[i] > 20:
+        atributos[i] = 20
+    if atributos[i] < 1:
+        atributos[i] = 1
     cont += 1
 for i, k in atributos.items():
-    if k > 20:
-        k = 20
-    if k < 1:
-        k = 1
     print(f'Seu atributo {i} recebe o valor {k}')
 print(atributos)
-
+print()
 
 intro(personagem['Classe'])
 sleep(2)
