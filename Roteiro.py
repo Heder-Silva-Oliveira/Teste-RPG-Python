@@ -43,6 +43,33 @@ def jogocacador(decisao):
         'e sem chifres')
 
 
+def jogadorcacador2(decisao,decisao2):
+    if decisao and decisao2 == 1:
+        print('Você chega ao centro do vilarejo e segue ate o açougueiro e tira da garupa de seu cavalo grande parte\n'
+        'da carne do servo e negocia com o comerciante, no fim você teve a impressão de ter se saído melhor na negociação\n'
+        'que o açougueiro, saindo de lá você chega ao artesão para vender parte do couro obtido, feito a venda você sai\n'
+        'com um grande sorriso, esta vez o negocio foi vantajoso, e por fim passa até o comerciante do vilarejo este que\n'
+        'compra e vende as mais variadas coisas, você consegue convence-lo a comprar a grande galhada do servo, mas desta\n'
+        'vez o comerciante sai ganhando e com ampla vantagem')
+    if decisao == 1 and decisao2 == 2:
+        print('Você parte a caminho de sua casa evitando vários locais que são excelentes para uma emboscada, muitos \n'
+        'bandidos se escondem nestas regiões pegando desavisados e usurpando tudo que podem, e você sabe que o \n'
+        'conteúdo que você carrega é valioso, mas você é malicioso na floresta seus longos anos de caçador de deixam\n'
+        'com uma grande vantagem, por fim você chega em casa, e sabendo que conseguiu escapar de pelo menos uma \n'
+        'emboscada, porque antes de chegar na ultima encruzilhada você entrou por entre as arvores, e depois disso\n'
+        'escutou os gritos de frustações e ameaças, não foi desta vez que te pegaram.')
+    if decisao == 2 and decisao2 == 1:
+        print('Chegando ao vilarejo você vende metade da carne que conseguiu, e uma pequena parte do couro, o açougueiro\n'
+        'comprou tudo porque ele oportunamente estava também precisando de couro para um novo avental, você consegue\n'
+        'fazer um bom negocio com ele, e sai satisfeito com o negocio e insatisfeito com a caçada, arrependido de\n'
+        'não ter esperado o melhor momento, mesmo assim você volta para sua casa.')
+    if decisao == 2 and decisao2 == 2:
+        print('Você chega a sua casa sem dinheiro porque considerou pouco demais para vender, é preciso deixar carne \n'
+        'para passar o inverno, você é sozinho, não tem família, não precisa de muita carne para se manter, mas salgar\n'
+        'a carne e trabalhar o couro te deixará ocupado por um longo período, tudo isso antes do inverno, esta foi sua \n'
+        'ultima caçada, a próxima só na primavera. ')
+
+
 
 def jogoguerreiro(decisao):
     if decisao == 1:
@@ -69,6 +96,11 @@ def jogaquerreiro2(decisao, decisao2):
         'dor mas isso deveria ser comum naquele ambiente, porém com mais atenção você percebe que não é gemido de dor\n'
         'física, é um tormento mental, ao olhar para o paciente o rosto dele esta em volto em um lençol, ele esta\n'
         'separado deitado isolado em um canto da tenda')
+    if decisao == 2 and decisao2 == 1:
+        print('Você sai se aproxima de seus camaradas e alguns deles se levantam e grita seu nome, todos se alegram\n'
+        'e brindam sua bravura, alguns poucos até mesmo chegam a dizer que a vitória foi alcançada graças ao\n'
+        'seu encorajamento, essas palavras foram bem aceitas pela maioria, mas alguns não gostaram muito, \n'
+        'você se sente bem por estar com eles, apesar das dores e sequelas da batalha.')
     if decisao == 2 and decisao2 == 2:
         print('Você abre seus olhos lentamente e junto com a visão vem as dores, inúmeras e por toda parte de seu corpo\n'
         'você geme de dor involuntariamente, passando alguns minutos você se da conta de que esta em uma tenda de hospital\n'
