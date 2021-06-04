@@ -15,7 +15,7 @@ def cap1mag():
 def cap2mag():
     cabecalho('Ao seu redor varios outros magos, a maioria ja havia desistido, e apenas dois ainda continuam o intento')
     sleep(5)
-    escolha2 = ('Você decide deixa-los concentrados e conseguir a aurea', 'Você tenta discretamente desconcentra-los')
+    escolha2 = ('Você decide deixa-los concentrados em conjurar a aurea', 'Você tenta discretamente desconcentra-los')
     menu(escolha2)
 
 

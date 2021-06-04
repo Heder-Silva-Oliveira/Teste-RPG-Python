@@ -80,23 +80,32 @@ print()
 
 intro(personagem['Classe'])
 sleep(2)
+decisao1 = 0
+decisao2 = 0
 if personagem['Classe'] == 'Mago':
     cap1mag()
     decisao1 = int(input('Qual sua decisão?: '))
     jogomago(decisao1)
     sleep(5)
     cap2mag()
+    decisao2 = int(input('Qual sua decisão?'))
+    jogodormago2(decisao1, decisao2)
 elif personagem['Classe'] == 'Caçador':
     cap1cac()
     decisao1 = int(input('Qual sua decisão?: '))
     jogocacador(decisao1)
     sleep(5)
     cap2cac()
+    decisao2 = int(input('Qual sua decisão?'))
+    jogodorcacador2(decisao1, decisao2)
 elif personagem['Classe'] == 'Guerreiro':
     cap1gue()
     decisao1 = int(input('Qual sua decisão?: '))
     jogoguerreiro(decisao1)
     sleep(5)
     cap2gue()
+    decisao2 = int(input('Qual sua decisão?'))
+    jogoquerreiro2(decisao1, decisao2)
 
-print("CONTINUA...")
+
+

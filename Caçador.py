@@ -11,7 +11,7 @@ def cap1cac():
 
 
 def cap2cac():
-    cabecalho('Você consegue abater e esfolar um servo, agora você tem carne, couro obastante para vender')
+    cabecalho('Você consegue abater e esfolar um servo, agora você tem carne e couro obastante para vender')
     sleep(5)
     escolha = ('Você vai direto para vila vender o ecedente', 'Você vai direto para casa guardar tudo')
     menu(escolha)
