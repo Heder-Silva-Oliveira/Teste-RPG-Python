@@ -7,7 +7,7 @@ from Guerreiro import *
 
 
 criaturas = ('Orque', 'Elfo', 'Humano')
-tipo = ('Guereiro', 'Caçador', 'Mago')
+tipo = ('Guerreiro', 'Caçador', 'Mago')
 atributos = {'Força': 0, 'Destreza': 0, 'Constituição': 0, 'Inteligência': 0,'Sabedoria': 0, 'Carisma': 0}
 cabecalho('Criando o personagem')
 personagem = {}
@@ -33,7 +33,7 @@ while True:
         escolha = input("Ecolha a Raça: ")
 while True:
     if escolha1 == 1:
-        classe = 'Guereiro'
+        classe = 'Guerreiro'
         break
     elif escolha1 == 2:
         classe = 'Caçador'
