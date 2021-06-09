@@ -4,6 +4,7 @@ from Mago import *
 from Caçador import *
 from Roteiro import *
 from Guerreiro import *
+from Rolagem import *
 
 
 criaturas = ('Orque', 'Elfo', 'Humano')
@@ -108,4 +109,9 @@ elif personagem['Classe'] == 'Guerreiro':
     jogoquerreiro2(decisao1, decisao2)
 
 
-
+if classmago:
+    inimigoataq = randint(1, 20)
+    meuatq = randint(1, 20)
+    print(f'Minha rolagem do D20 foi {meuatq} somando meu atributo {atributos["Sabedoria"]}')
+    relsultado = inimigoataq - meuatq
+    dado6(relsultado)
