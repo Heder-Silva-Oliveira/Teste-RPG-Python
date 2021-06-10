@@ -112,6 +112,8 @@ elif personagem['Classe'] == 'Guerreiro':
 if classmago:
     inimigoataq = randint(1, 20)
     meuatq = randint(1, 20)
-    print(f'Minha rolagem do D20 foi {meuatq} somando meu atributo {atributos["Sabedoria"]}')
-    relsultado = inimigoataq - meuatq
-    dado6(relsultado)
+    print(f'Minha rolagem do D20 foi {meuatq} somando meu atributo é {atributos["Sabedoria"]}')
+    print(f'O ataque inimigo foi de {inimigoataq}, minha CA é de {12}')
+    if inimigoataq >= 20:
+        rels = randint(1, 6)
+        dado6(rels)
