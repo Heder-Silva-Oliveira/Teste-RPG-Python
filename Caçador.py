@@ -10,6 +10,7 @@ def cap1cac():
     menu(escolha)
 
 
+#se for a escolha 2
 def cap2cac():
     cabecalho('Você consegue abater e esfolar um servo, agora você tem carne e couro obastante para vender')
     sleep(5)

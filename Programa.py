@@ -117,3 +117,5 @@ if classmago:
     if inimigoataq >= 20:
         rels = randint(1, 6)
         dado6(rels)
+
+
