@@ -115,7 +115,10 @@ if classmago:
     print(f'Minha rolagem do D20 foi {meuatq} somando meu atributo é {atributos["Sabedoria"]}')
     print(f'O ataque inimigo foi de {inimigoataq}, minha CA é de {12}')
     if inimigoataq >= 20:
+        print('Vocçe foi atingio')
         rels = randint(1, 6)
         dado6(rels)
+    else:
+        print('Você não foi atingio')
 
 
