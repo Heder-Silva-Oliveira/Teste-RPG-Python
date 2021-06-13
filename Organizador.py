@@ -1,4 +1,6 @@
 from time import sleep
+from random import randint
+from Rolagem import dado6
 
 def linha(tam = 40):
     return '-' *tam
@@ -18,6 +20,16 @@ def menu(lista):
         c += 1
     print(linha(40))
 
+
+def batalhadef():
+    inimigoataq = randint(1, 20)
+    print(f'O ataque inimigo foi de {inimigoataq}, minha CA é de {12}')
+    if inimigoataq >= 20:
+        print('Vocçe foi atingio')
+        rels = randint(1, 6)
+        dado6(rels)
+    else:
+        print('Você não foi atingio')
 
 
 def tiktak(tempo):

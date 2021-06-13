@@ -108,17 +108,8 @@ elif personagem['Classe'] == 'Guerreiro':
     decisao2 = int(input('Qual sua decisão?'))
     jogoquerreiro2(decisao1, decisao2)
 
+batalhadef()
 
-if classmago:
-    inimigoataq = randint(1, 20)
-    meuatq = randint(1, 20)
-    print(f'Minha rolagem do D20 foi {meuatq} somando meu atributo é {atributos["Sabedoria"]}')
-    print(f'O ataque inimigo foi de {inimigoataq}, minha CA é de {12}')
-    if inimigoataq >= 20:
-        print('Vocçe foi atingio')
-        rels = randint(1, 6)
-        dado6(rels)
-    else:
-        print('Você não foi atingio')
+
 
 
