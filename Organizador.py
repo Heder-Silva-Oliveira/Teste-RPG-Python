@@ -36,7 +36,7 @@ def tiktak(tempo):
     c = 0
     while True:
         print('.',end= ' ')
-        sleep(0.3)
+        sleep(0.4)
         c += 1
         if tempo == c:
             break
