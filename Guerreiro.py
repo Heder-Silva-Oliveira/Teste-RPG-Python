@@ -11,7 +11,6 @@ def cap1gue():
     menu(escolha)
 
 
-#se for a escolha 2
 def cap2gue():
     cabecalho('A batalha acabou, sem gloria porem com a vitoria, você você vê alguns amigos, proximo a fogueira')
     sleep(5)

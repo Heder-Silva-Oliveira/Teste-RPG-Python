@@ -1,6 +1,4 @@
 from Organizador import *
-from time import sleep
-from Organizador import *
 
 
 def cap1cac():

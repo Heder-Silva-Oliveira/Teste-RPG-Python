@@ -11,7 +11,6 @@ def cap1mag():
     menu(escolha)
 
 
-#se for a escolha 2
 def cap2mag():
     cabecalho('Ao seu redor varios outros magos, a maioria ja havia desistido, e apenas dois ainda continuam o intento')
     sleep(5)
