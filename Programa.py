@@ -76,6 +76,7 @@ for i in classper(escolha1):
     cont += 1
 for i, k in atributos.items():
     print(f'Seu atributo {i} recebe o valor {k}')
+print('Seus atributos com modificadores de Classe:')
 print(atributos)
 print()
 
