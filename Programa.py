@@ -84,12 +84,18 @@ tiktak(10)
 print()
 decisao1 = 0
 decisao2 = 0
+guia = ''
 if personagem['Classe'] == 'Mago':
+    guia = 'M'
     cap1mag()
     decisao1 = int(input('Qual sua decisão?: '))
     while decisao1 not in (1, 2):
         decisao1 = int(input('Qual sua decisão?: '))
     jogomago(decisao1)
+    if decisao1 == 1:
+        guia += 'A'
+    if decisao1 == 2:
+        guia += 'B'
     tiktak(10)
     print()
     cap2mag()
@@ -97,12 +103,21 @@ if personagem['Classe'] == 'Mago':
     while decisao2 not in (1, 2):
         decisao2 = int(input('Qual sua decisão?: '))
     jogodormago2(decisao1, decisao2)
+    if decisao2 == 1:
+        guia += 'A'
+    if decisao2 == 2:
+        guia += 'B'
 elif personagem['Classe'] == 'Caçador':
+    guia = 'C'
     cap1cac()
     decisao1 = int(input('Qual sua decisão?: '))
     while decisao1 not in (1, 2):
         decisao1 = int(input('Qual sua decisão?: '))
     jogocacador(decisao1)
+    if decisao1 == 1:
+        guia += 'A'
+    if decisao1 == 2:
+        guia += 'B'
     tiktak(10)
     print()
     cap2cac()
@@ -110,12 +125,21 @@ elif personagem['Classe'] == 'Caçador':
     while decisao2 not in (1, 2):
         decisao2 = int(input('Qual sua decisão?: '))
     jogodorcacador2(decisao1, decisao2)
+    if decisao2 == 1:
+        guia += 'A'
+    if decisao2 == 2:
+        guia += 'B'
 elif personagem['Classe'] == 'Guerreiro':
+    guia = 'G'
     cap1gue()
     decisao1 = int(input('Qual sua decisão?: '))
     while decisao1 not in (1, 2):
         decisao1 = int(input('Qual sua decisão?: '))
     jogoguerreiro(decisao1)
+    if decisao1 == 1:
+        guia += 'A'
+    if decisao1 == 2:
+        guia += 'B'
     tiktak(10)
     print()
     cap2gue()
@@ -123,8 +147,14 @@ elif personagem['Classe'] == 'Guerreiro':
     while decisao2 not in (1, 2):
         decisao2 = int(input('Qual sua decisão?: '))
     jogoquerreiro2(decisao1, decisao2)
+    if decisao2 == 1:
+        guia += 'A'
+    if decisao2 == 2:
+        guia += 'B'
 
 batalhadef()
+
+
 
 
 
