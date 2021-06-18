@@ -7,6 +7,7 @@ from Guerreiro import *
 from Rolagem import *
 
 
+print('Este é um jogo de RPG e tem a finalidade de desenvolver a tecnica de programação do autor')
 criaturas = ('Orque', 'Elfo', 'Humano')
 tipo = ('Guerreiro', 'Caçador', 'Mago')
 atributos = {'Força': 0, 'Destreza': 0, 'Constituição': 0, 'Inteligência': 0,'Sabedoria': 0, 'Carisma': 0}
