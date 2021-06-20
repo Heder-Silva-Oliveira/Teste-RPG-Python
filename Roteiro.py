@@ -58,8 +58,8 @@ def jogodormago2(decisao,decisao2):
     elif decisao == 2 and decisao2 == 2:
         #BB
         print('Você se levanta vencedor, maior que os demais você é um dos poucos no mundo com esta áurea, os outros \n'
-        'dois magos ainda persistem, mas você acredita que eles não saberão usa-la com sabedoria, ele irão usar para o \n'
-        'mal  irão atrapalhar a vida de outros em beneficio próprio você se julga o único capaz de impedir isso, e de \n'
+        'dois magos ainda persistem, mas você acredita que eles não saberão usa-la com sabedoria, eles irão usar para o \n'
+        'mal,  irão atrapalhar a vida de outros em beneficio próprio você se julga o único capaz de impedir isso, e de \n'
         'maneira furtiva você invade a mente de um jovem aprendiz, fazendo-o cair  em cima dos dois magos fazendo-os \n'
         'perder a concentração, eles se levantam e furiosos tentam castigar o aprendiz, mas são impedido por outros magos.')
 
