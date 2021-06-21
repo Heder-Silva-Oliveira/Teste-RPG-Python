@@ -1,7 +1,7 @@
 from random import randint
 
-
-def dado6(dano):
+#reformular os danos para servir tanto ao Jogaor quanto ao NPC
+def dado6esp(dano):
     dano = randint(1,6)
     if dano == 1:
         print('O oponente te atinge mas você foi rapido, ele te acertando apenas de raspam')
@@ -15,6 +15,38 @@ def dado6(dano):
         print('Você perde o equilibrio cai de joelho com a mão no local atingiddo')
     if dano == 6:
         print('Você é acertado em cheio e cai sangrando e terá ganha uma grande cicatriz se sobreviver')
+
+
+def dado6arq(dano):
+    dano = randint(1,6)
+    if dano == 1:
+        print()
+    if dano ==2:
+        print()
+    if dano == 3:
+        print()
+    if dano == 4:
+        print()
+    if dano == 5:
+        print()
+    if dano == 6:
+        print()
+
+
+def dado6mag(dano):
+    dano = randint(1,6)
+    if dano == 1:
+        print()
+    if dano ==2:
+        print()
+    if dano == 3:
+        print()
+    if dano == 4:
+        print()
+    if dano == 5:
+        print()
+    if dano == 6:
+        print()
 
 
 def dado4(itens):

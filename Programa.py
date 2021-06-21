@@ -1,5 +1,3 @@
-from random import randint
-from Organizador import *
 from Mago import *
 from Caçador import *
 from Roteiro import *
