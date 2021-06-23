@@ -14,23 +14,23 @@ def dado6esp(dano):
     if dano == 5:
         print('A dor pe insuportavel os joelho se dobram e a mão vai até no local atingiddo')
     if dano == 6:
-        print('Golce preciso o sangramento surge forte, causando o equilibrio e desfoque ')
+        print('Golce preciso o sangramento surge forte, causando o a queda ao chão e desfoque ')
 
 
 def dado6arq(dano):
     dano = randint(1,6)
     if dano == 1:
-        print()
+        print('O tiro passa atingindo a pele de raspam')
     if dano ==2:
-        print()
+        print('A flexa acerta o alvo mas não aprofunda na carne')
     if dano == 3:
-        print()
+        print('A flexa atinge o alvo causando sangramento mas não crava na carne')
     if dano == 4:
-        print()
+        print('O impacto foi forte causanso o desequilibrio e o sangue verte manchando o corpo')
     if dano == 5:
-        print()
+        print('A dor da lamina da flexa e o impacto dela no corpo tira totalmente o equilibrio')
     if dano == 6:
-        print()
+        print('A flexa crava facil na carne impactando e sangrando, o corpo cai ao chão ')
 
 
 def dado6mag(dano):
