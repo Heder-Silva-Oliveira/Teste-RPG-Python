@@ -4,17 +4,17 @@ from random import randint
 def dado6esp(dano):
     dano = randint(1,6)
     if dano == 1:
-        print('O oponente te atinge mas você foi rapido, ele te acertando apenas de raspam')
+        print('A espada passa em um arco descebdente, porém apenas de raspam')
     if dano == 2:
-        print('Embora você seja rapido, o oponente conseque te asertar mas isso não muda sua situação')
+        print('A espada acerta seu alvo, um pequeno corte surge vermelho')
     if dano == 3:
-        print('Você é atingio causando grande dor, te deixando exposto no local acertado')
+        print('O golpe foi certeiro, causando grande dor e deixando exposto no local acertado')
     if dano == 4:
-        print('A dor é grande causado pelo ataque deixa você sem foco')
+        print('A dor do ferimento é muito forte, deixando os olhos sem foco ')
     if dano == 5:
-        print('Você perde o equilibrio cai de joelho com a mão no local atingiddo')
+        print('A dor pe insuportavel os joelho se dobram e a mão vai até no local atingiddo')
     if dano == 6:
-        print('Você é acertado em cheio e cai sangrando e terá ganha uma grande cicatriz se sobreviver')
+        print('Golce preciso o sangramento surge forte, causando o equilibrio e desfoque ')
 
 
 def dado6arq(dano):
