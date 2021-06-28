@@ -1,21 +1,5 @@
 from random import randint
 
-#reformular os danos para servir tanto ao Jogaor quanto ao NPC
-def dado6esp(dano):
-    dano = randint(1,6)
-    if dano == 1:
-        print('A espada passa em um arco descebdente, porém apenas de raspam')
-    if dano == 2:
-        print('A espada acerta seu alvo, um pequeno corte surge vermelho')
-    if dano == 3:
-        print('O golpe foi certeiro, causando grande dor e deixando exposto no local acertado')
-    if dano == 4:
-        print('A dor do ferimento é muito forte, deixando os olhos sem foco ')
-    if dano == 5:
-        print('A dor pe insuportavel os joelho se dobram e a mão vai até no local atingiddo')
-    if dano == 6:
-        print('Golce preciso o sangramento surge forte, causando o a queda ao chão e desfoque ')
-
 
 def dado6arq(dano):
     dano = randint(1,6)

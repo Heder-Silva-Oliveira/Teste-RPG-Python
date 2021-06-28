@@ -152,8 +152,6 @@ elif personagem['Classe'] == 'Guerreiro':
     if decisao2 == 2:
         guia += 'B'
 
-batalhadef()
-
 
 
 
