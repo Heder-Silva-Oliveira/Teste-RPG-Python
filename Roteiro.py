@@ -58,10 +58,28 @@ def jogodormago2(decisao,decisao2):
     elif decisao == 2 and decisao2 == 2:
         #BB
         print('Você se levanta vencedor, maior que os demais você é um dos poucos no mundo com esta áurea, os outros \n'
-        'dois magos ainda persistem, mas você acredita que eles não saberão usa-la com sabedoria, eles irão usar para o \n'
-        'mal,  irão atrapalhar a vida de outros em beneficio próprio você se julga o único capaz de impedir isso, e de \n'
-        'maneira furtiva você invade a mente de um jovem aprendiz, fazendo-o cair  em cima dos dois magos fazendo-os \n'
-        'perder a concentração, eles se levantam e furiosos tentam castigar o aprendiz, mas são impedido por outros magos.')
+        'um mago ainda persiste, mas você acredita que ele não saberá usa-la com sabedoria, ele irá usar para o \n'
+        'mal,  irá atrapalhar a vida de outros em beneficio próprio você se julga o único capaz de impedir isso, e de \n'
+        'maneira furtiva você invade a mente de um jovem aprendiz, fazendo-o cair  em cima do mago fazendo-o perder a \n'
+        'concentração, ele se levanta e furioso tentam castigar o aprendiz, mas é impedido por outros magos.')
+
+
+def jogodormago3(guia):
+    if guia == 'MAAA':
+        print("escolheu entrar na porta")
+    elif guia == "MAAB":
+        print('Escolheu não entrar')
+    elif guia == 'MAB':
+        print('luta')
+    elif guia == 'MBAA':
+        print('Vai atras do mago, ''LUTa')
+    elif guia == 'MBAB':
+        print('Não vai atras')
+    elif guia == 'MBBA':
+        print("Você sai de perto da confusão")
+    elif guia == 'MBBB':
+        print("Você entra no meio da confusão")
+
 
 
 
