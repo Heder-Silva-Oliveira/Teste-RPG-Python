@@ -113,7 +113,7 @@ class Lutafle:
 
 class Lutamag:
 
-    def batalhadefmag(num):
+    def batalhadefmag(inimigoataq):
         inimigoataq = randint(1, 20)
         print(f'O ataque inimigo foi de {inimigoataq}, minha CA é de {12}')
         if inimigoataq >= 12:
