@@ -135,25 +135,25 @@ class Lutamag:
             print('Você não foi atingido')
 
 
-def batalhaatqmag(meuataq):
-        print(f'O meu ataque foi de {meuataq}, a CA do oponente é de {15}')
-        if meuataq >= 15:
-            print('Acertei o alvo')
-            dano = randint(1, 6)
-            if dano == 1:
-                print('Você estende a mão ao oponente e um pulso de ar quente empurra o inimigo para trás')
-            if dano == 2:
-                print('Um fogo verte surge em direção ao inimigo com um sinal de suas mãos e causa dor ao oponente')
-            if dano == 3:
-                print('Uma sombra é conjurada de suas mão e envolve o inimigo, deixando sem visão momentânea')
-            if dano == 4:
-                print('A você conjura um expecto que atravessa o inimigo, deixando desorientado, e com muita dor')
-            if dano == 5:
-                print('Uma seta de gelo sai de seus dedos e crava na carne do inimigo causando muita dor a ele')
-            if dano == 6:
-                print('Uma bola de fogo surge de sua mão você lança contra o algo, queimando por todo corpo')
-        else:
-            print('Não atingi o alvo')
+    def batalhaatqmag(meuataq):
+            print(f'O meu ataque foi de {meuataq}, a CA do oponente é de {15}')
+            if meuataq >= 15:
+                print('Acertei o alvo')
+                dano = randint(1, 6)
+                if dano == 1:
+                    print('Você estende a mão ao oponente e um pulso de ar quente empurra o inimigo para trás')
+                if dano == 2:
+                    print('Um fogo verte surge em direção ao inimigo com um sinal de suas mãos e causa dor ao oponente')
+                if dano == 3:
+                    print('Uma sombra é conjurada de suas mão e envolve o inimigo, deixando sem visão momentânea')
+                if dano == 4:
+                    print('A você conjura um expecto que atravessa o inimigo, deixando desorientado, e com muita dor')
+                if dano == 5:
+                    print('Uma seta de gelo sai de seus dedos e crava na carne do inimigo causando muita dor a ele')
+                if dano == 6:
+                    print('Uma bola de fogo surge de sua mão você lança contra o algo, queimando por todo corpo')
+            else:
+                print('Não atingi o alvo')
 
 
 def tiktak(tempo):
