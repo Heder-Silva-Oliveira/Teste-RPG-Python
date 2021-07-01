@@ -57,6 +57,8 @@ classguerreiro = {'Força': 2, 'Constituição': 1, 'Inteligência': -1}
 classcacador = {'Destreza': 2, 'Carisma': 1, 'Força': -1}
 classetotal = ([classmago], [classguerreiro], [classcacador])
 cont = 0
+
+
 def classper(escolha1):
     if escolha1 == 1:
         return classguerreiro
@@ -82,9 +84,9 @@ print()
 intro(personagem['Classe'])
 tiktak(10)
 print()
-decisao1 = 0
-decisao2 = 0
 guia = ''
+decisao = 0
+decisao1 = decisao3 = decisao20 = 0
 if personagem['Classe'] == 'Mago':
     guia = 'M'
     cap1mag()
@@ -107,6 +109,16 @@ if personagem['Classe'] == 'Mago':
         guia += 'A'
     if decisao2 == 2:
         guia += 'B'
+    while decisao3 not in (1, 2):
+        decisao3 = int(input('Qual sua decisão?: '))
+        if decisao3 == 1:
+            guia += 'A'
+        if decisao3 == 2:
+            guia += 'B'
+    jogodormago3(guia)
+    inimigoataq = randint(1, 20)
+    dano = randint(1, 6)
+    batalhadefmag(inimigoataq, dano)
 elif personagem['Classe'] == 'Caçador':
     guia = 'C'
     cap1cac()
@@ -151,9 +163,3 @@ elif personagem['Classe'] == 'Guerreiro':
         guia += 'A'
     if decisao2 == 2:
         guia += 'B'
-
-
-
-
-
-

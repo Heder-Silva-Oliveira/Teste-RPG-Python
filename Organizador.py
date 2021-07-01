@@ -21,12 +21,10 @@ def menu(lista):
     print(linha(40))
 
 
-def batalhadefesp(inimigoataq):
-    inimigoataq = randint(1, 20)
+def batalhadefesp(inimigoataq, dano):
     print(f'O ataque inimigo foi de {inimigoataq}, minha CA é de {12}')
     if inimigoataq >= 12:
         print('Você foi atingido')
-        dano = randint(1, 6)
         if dano == 1:
             print('A espada passa em um arco descendente, porém apenas de raspam')
         if dano == 2:
@@ -64,12 +62,10 @@ def batalhaatqesp(meuataq):
             print('Não atingi o alvo')
 
 
-def batalhadeffle(inimigoataq):
-    inimigoataq = randint(1, 20)
+def batalhadeffle(inimigoataq, dano):
     print(f'O ataque inimigo foi de {inimigoataq}, minha CA é de {12}')
     if inimigoataq >= 12:
         print('Você foi atingido')
-        dano = randint(1, 6)
         if dano == 1:
             print('O tiro passa atingindo a pele de raspam')
         if dano == 2:
@@ -157,5 +153,4 @@ def tiktak(tempo):
         c += 1
         if tempo == c:
             break
-
 
