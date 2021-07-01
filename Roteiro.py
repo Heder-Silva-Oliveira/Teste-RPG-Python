@@ -4,7 +4,7 @@ def intro(txt):
         ",porem desta vez não é uma qualquer, esta é superior, você esta sentado no meio do pentagrama\n" 
         "quando percebe uma perturbação nos seus sentidos, você já não consegue distinguir o que é \n" 
         "olfato ou tato, oque é paladar ou audição, tudo esta confuso, você soa com frio, sente \n" 
-        "sede estando saciado você não sente o chão, você são sente o ar, você não ente nada.")
+        "sede estando saciado você não sente o chão, você são sente o ar, você não sente nada.")
     if txt == 'Caçador':
         print("  As folhas farfalham ao vendo, pássaros grasnam e esses são os sons mais altos que você\n" 
         "ouve porem seus longos anos em florestam e dão a habilidade de escutar além disso, sons de\n" 
@@ -39,15 +39,15 @@ def jogodormago2(decisao,decisao2):
         print('Você esta revoltado com sigo, e começa a andar pelo salão alguns outros magos se aproxima de você para\n'
         'conversar mas você os evita, nada é capaz de tirar sua revolta, não agora, você continua andando e quando se\n'
         'da por si, você chega a um corredor onde se depara com uma porta quase imperceptível, pequena e debaixo de uma\n'
-        'escada, algo em você já sabe que aquilo que esta porta parece ter sido revelada à você, você se sente escolhido.')
+        'escada, você acredita que esta porta parece ter sido revelada somente à você, você se sente escolhido.')
     elif decisao == 1 and decisao2 == 2:
         #AB
-        print('Dois magos ainda estão tentando conjurar, a inveja um sentimento tão primitivo invade você, é inaceitável\n'
-        'você um grande mago não conseguir e esses forasteiros sim, você rapidamente olha para o lado e vê um grande \n'
+        print('Um mago ainda esta tentando conjurar, a inveja um sentimento tão primitivo invade você, é inaceitável\n'
+        'você um grande mago não conseguir e esse forasteiro sim, você rapidamente olha para o lado e vê um grande \n'
         'candelabro com muitas velas, uma pequena magia sai de seus dedos na direção, no momento em que ninguém te \n'
         'observa, o candelabro cai e a grande cortina próximo dele se incendeia, causando o espanto de todos, isso foi \n'
-        'suficiente para desconcentrar os remanescentes, um deles se levanta furioso com olhos flamejantes, olha para \n'
-        'todos e foco os olhos em você.')
+        'suficiente para desconcentrar o remanescente,e dele se levanta furioso com olhos flamejantes, olha para \n'
+        'todos e foca os olhos em você.')
     elif decisao == 2 and decisao2 == 1:
         #BA
         print('Você se levanta glorioso você é um dos poucos no mundo a ter uma áurea superior,  ao seu redor  vários\n'
@@ -66,11 +66,21 @@ def jogodormago2(decisao,decisao2):
 
 def jogodormago3(guia):
     if guia == 'MAAA':
-        print("escolheu entrar na porta")
+        print("Você abre a porta sem dificuldade, e antes e entrar uma breve olhada  ao redor para não ser notado por \n"
+      "outros, entrando o que se revela a você é assustador, mesmo para um mago e conjuração,, tomos antigos com símbolos\n"
+      "profanos e alguns com rostos entalhados na capa, estão por toda parte pergaminhos com selos macabros, estão amontoados\n"
+      "em prateleiras , ao caminhar mais para o fundo da sala, um som como de um vento passa por você e a porta que \n"
+      "outrora aberta, simplesmente deixa de existir você esta selado dentro da câmara, chamas azuis se acendem empiras\n"
+      "espalhadas pela sala, e um grande livro centrado em um pedestal se abre te convidando a lê-lo.  ")
     elif guia == "MAAB":
-        print('Escolheu não entrar')
+        print('Você não se sente seguro sendo atraído por essa oportunidade, os anos já vividos te deram esse discernimento,\n'
+      'você já se sente cansado, foi árduo a tentativa de conjuração, você vai a caminho da porta para sair do salão \n'
+      'onde os magos se reúnem, e já a alguns minutos de distancia andando a pé você houve um gritos aterradores, vindo \n'
+      'de uma cabana não muito afastada da estrada onde você caminha, correndo em direção aos gritos, já se cessaram, \n'
+      'você já sabe o que causou isso, você entra na cabana, e você vê um jovem casal, mortos e uma fumaça negra saindo \n'
+      'de seus corpos, você sabe que foi o mago que você deixou terminar o ritual, ele se tornou o que você temia.')
     elif guia == 'MAB':
-        print('luta')
+        print('Sem perguntar nada ele já se prepara para te atacar conjurando magias')
     elif guia == 'MBAA':
         print('Vai atras do mago, ''LUTa')
     elif guia == 'MBAB':

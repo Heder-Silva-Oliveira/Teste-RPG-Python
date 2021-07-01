@@ -111,10 +111,12 @@ if personagem['Classe'] == 'Mago':
         guia += 'B'
     while decisao3 not in (1, 2):
         decisao3 = int(input('Qual sua decisão?: '))
-        if decisao3 == 1:
-            guia += 'A'
-        if decisao3 == 2:
-            guia += 'B'
+    if decisao3 == 1:
+        guia += 'A'
+    if decisao3 == 2:
+        guia += 'B'
+    tiktak(10)
+    print()
     jogodormago3(guia)
     inimigoataq = randint(1, 20)
     dano = randint(1, 6)

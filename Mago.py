@@ -18,4 +18,5 @@ def cap2mag():
     menu(escolha2)
 
 
-
+def cap3mag():
+    cabecalho('')
