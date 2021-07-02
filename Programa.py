@@ -118,27 +118,31 @@ if personagem['Classe'] == 'Mago':
     if decisao3 == 2:
         guia += 'B'
     tiktak(2)
-    print()
+    print(guia)
     jogodormago3(guia)
     if guia == 'MBBB' or 'MBBA' or 'MAB':
         vida = 20
         inimigo = 20
-        while vida or inimigo == 20:
-            cabecalho('O inimigo ataca')
+        while vida > 0 or inimigo > 0:
+            cabecalho(f'\033[1;31m O inimigo ataca, via o inimogo {inimigo}\033[m')
             tiktak(3)
             inimigoataq = randint(1, 20)
             dano = randint(1, 6)
             vida -= dano
             batalhadefmag(inimigoataq, dano)
-            cabecalho("Você ataca")
+            cabecalho(f"\033[1;34m Você ataca, minha vida {vida}\033[m")
             tiktak(3)
-            meuataq = randint(1,20) + classmago['Sabedoria']
+            meuataq = 2 + randint(1, 20)
             dano = randint(1, 6)
+            inimigo -= dano
             batalhaatqmag(meuataq, dano)
-        if vida == 0:
-            print('GAME OVER')
-        if inimigo == 0:
-            print('Você vence o adversario')
+            if vida <= 0:
+                print('GAME OVER')
+                break
+            if inimigo <= 0:
+                print('Você vence o adversario')
+
+
 elif personagem['Classe'] == 'Caçador':
     guia = 'C'
     cap1cac()
