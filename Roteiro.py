@@ -53,7 +53,7 @@ def jogodormago2(decisao,decisao2):
         print('Você se levanta glorioso você é um dos poucos no mundo a ter uma áurea superior,  ao seu redor  vários\n'
         'outros magos  estão no salão e alguns se aproximam te perguntando se conseguiu o feito, e você não esconde e\n'
         'revela que sim, você é parabenizado, e alguns mais jovens até mesmo demonstram interesse em aprender mais com\n'
-        'você, enquanto isso um dos que ainda tentavam conjurar se levanta com um sorriso malévolo no rosto, e sai do\n'
+        'você, enquanto isso o mago que ainda tentava conjurar a áurea se levanta com um sorriso malévolo no rosto, e sai do\n'
         'salão sem falar com ninguém.')
     elif decisao == 2 and decisao2 == 2:
         #BB
@@ -82,9 +82,15 @@ def jogodormago3(guia):
     elif guia == 'MAB':
         print('Sem perguntar nada ele já se prepara para te atacar conjurando magias')
     elif guia == 'MBAA':
-        print('Vai atras do mago, ''LUTa')
+        print('De imediato e se desvencilhando dos outros magos, você sai ao encalço da ameaça, já a alguns minutos de\n'
+      'corrida você consegue ver ele se aproximando de uma cabana, não tão longe da estrada, seu instinto te faz lançar\n'
+      'sobre ele uma magia, porque a intenção dele não é outra se não aniquilar as vidas dos que ali abitam a fim de \n'
+      'fortalecer a áurea dele com as almas dos pobres coitados.')
     elif guia == 'MBAB':
-        print('Não vai atras')
+        print('Você deixa o mago partir sem se intrometer, e deixa que a fama momentânea tome conta da situação, depois \n'
+      'de horas de e conversas aleatórias, um pensamento vem a sua cabeça, o que poderia fazer aquele forasteiro com todo \n'
+      'aquele poder que você igualmente agora possui, seria ele também forte o bastante para não se corromper, seria ele \n'
+      'agora a mais nova ameaça, se isso acontecer você seria responsável por ser o único capaz de detê-lo e não o fez.')
     elif guia == 'MBBA':
         print("Você sai de perto da confusão")
     elif guia == 'MBBB':
