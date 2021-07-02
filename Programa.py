@@ -124,6 +124,14 @@ if personagem['Classe'] == 'Mago':
         vida = 20
         inimigo = 20
         while vida > 0 or inimigo > 0:
+            if guia == 'MAAA':
+                break
+            if guia ==  "MAAB":
+                break
+            if guia ==  "MBAB":
+                break
+            if guia ==  "MBBA":
+                break
             cabecalho(f'\033[1;31m O inimigo ataca, via o inimogo {inimigo}\033[m')
             tiktak(3)
             inimigoataq = randint(1, 20)
@@ -187,3 +195,4 @@ elif personagem['Classe'] == 'Guerreiro':
         guia += 'A'
     if decisao2 == 2:
         guia += 'B'
+print(guia)

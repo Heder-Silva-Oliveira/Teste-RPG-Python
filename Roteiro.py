@@ -86,13 +86,13 @@ def jogodormago3(guia):
     elif guia == 'MBAA':
         print('De imediato e se desvencilhando dos outros magos, você sai ao encalço da ameaça, já a alguns minutos de\n'
       'corrida você consegue ver ele se aproximando de uma cabana, não tão longe da estrada, seu instinto te faz lançar\n'
-      'sobre ele uma magia, porque a intenção dele não é outra se não aniquilar as vidas dos que ali abitam a fim de \n'
+      'sobre ele uma magia, porque a intenção dele não é outra se não aniquilar as vidas dos que ali habitam a fim de \n'
       'fortalecer a áurea dele com as almas dos pobres coitados.')
     elif guia == 'MBAB':
         print('Você deixa o mago partir sem se intrometer, e deixa que a fama momentânea tome conta da situação, depois \n'
       'de horas de e conversas aleatórias, um pensamento vem a sua cabeça, o que poderia fazer aquele forasteiro com todo \n'
       'aquele poder que você igualmente agora possui, seria ele também forte o bastante para não se corromper, seria ele \n'
-      'agora a mais nova ameaça, se isso acontecer você seria responsável por ser o único capaz de detê-lo e não o fez.')
+      'agora a mais nova ameaça?, se isso acontecer você seria responsável por ser o único capaz de detê-lo e não o fez.')
     elif guia == 'MBBA':
         print("Você deixa eles se entenderem, decide não participar da confusão e começa a andar despretensiosamente \n"
       "pelo salão, faz isso para se afastar o tumulto,  passando por varias estantes de livros e já bem distante da \n"
@@ -103,7 +103,6 @@ def jogodormago3(guia):
     elif guia == 'MBBB':
         print("Você decide acabar rápido com toda a confusão, você conjura uma magia, ao redor e todos, fazendo-os \n"
       "imóveis, você consegue êxito menos com o mago forasteiro, este se vira para você e conjura uma magia de ataque.")
-
 
 
 
