@@ -124,11 +124,10 @@ def batalhadefmag(inimigoataq, dano):
         print('Você não foi atingido')
 
 
-def batalhaatqmag(meuataq):
+def batalhaatqmag(meuataq, dano):
         print(f'O meu ataque foi de {meuataq}, a CA do oponente é de {15}')
         if meuataq >= 15:
             print('Acertei o alvo')
-            dano = randint(1, 6)
             if dano == 1:
                 print('Você estende a mão ao oponente e um pulso de ar quente empurra o inimigo para trás')
             if dano == 2:

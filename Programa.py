@@ -98,7 +98,7 @@ if personagem['Classe'] == 'Mago':
         guia += 'A'
     if decisao1 == 2:
         guia += 'B'
-    tiktak(10)
+    tiktak(2)
     print()
     cap2mag()
     decisao2 = int(input('Qual sua decisão?'))
@@ -109,18 +109,36 @@ if personagem['Classe'] == 'Mago':
         guia += 'A'
     if decisao2 == 2:
         guia += 'B'
+    cap3mag(guia)
+    decisao3 = int(input("Qual sua decisão?: "))
     while decisao3 not in (1, 2):
         decisao3 = int(input('Qual sua decisão?: '))
     if decisao3 == 1:
         guia += 'A'
     if decisao3 == 2:
         guia += 'B'
-    tiktak(10)
+    tiktak(2)
     print()
     jogodormago3(guia)
-    inimigoataq = randint(1, 20)
-    dano = randint(1, 6)
-    batalhadefmag(inimigoataq, dano)
+    if guia == 'MBBB' or 'MBBA' or 'MAB':
+        vida = 20
+        inimigo = 20
+        while vida or inimigo == 20:
+            cabecalho('O inimigo ataca')
+            tiktak(3)
+            inimigoataq = randint(1, 20)
+            dano = randint(1, 6)
+            vida -= dano
+            batalhadefmag(inimigoataq, dano)
+            cabecalho("Você ataca")
+            tiktak(3)
+            meuataq = randint(1,20) + classmago['Sabedoria']
+            dano = randint(1, 6)
+            batalhaatqmag(meuataq, dano)
+        if vida == 0:
+            print('GAME OVER')
+        if inimigo == 0:
+            print('Você vence o adversario')
 elif personagem['Classe'] == 'Caçador':
     guia = 'C'
     cap1cac()

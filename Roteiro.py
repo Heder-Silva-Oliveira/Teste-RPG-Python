@@ -60,7 +60,7 @@ def jogodormago2(decisao,decisao2):
         print('Você se levanta vencedor, maior que os demais você é um dos poucos no mundo com esta áurea, os outros \n'
         'um mago ainda persiste, mas você acredita que ele não saberá usa-la com sabedoria, ele irá usar para o \n'
         'mal,  irá atrapalhar a vida de outros em beneficio próprio você se julga o único capaz de impedir isso, e de \n'
-        'maneira furtiva você invade a mente de um jovem aprendiz, fazendo-o cair  em cima do mago fazendo-o perder a \n'
+        'maneira furtiva você invade a mente de um jovem aprendiz, fazendo-o cair  em cima do mago. perdendo toa a \n'
         'concentração, ele se levanta e furioso tentam castigar o aprendiz, mas é impedido por outros magos.')
 
 
@@ -79,7 +79,9 @@ def jogodormago3(guia):
       'de uma cabana não muito afastada da estrada onde você caminha, correndo em direção aos gritos, já se cessaram, \n'
       'você já sabe o que causou isso, você entra na cabana, e você vê um jovem casal, mortos e uma fumaça negra saindo \n'
       'de seus corpos, você sabe que foi o mago que você deixou terminar o ritual, ele se tornou o que você temia.')
-    elif guia == 'MAB':
+    elif guia == 'MABA':
+        print('Sem perguntar nada ele já se prepara para te atacar conjurando magias')
+    elif guia == 'MABB':
         print('Sem perguntar nada ele já se prepara para te atacar conjurando magias')
     elif guia == 'MBAA':
         print('De imediato e se desvencilhando dos outros magos, você sai ao encalço da ameaça, já a alguns minutos de\n'
@@ -92,9 +94,15 @@ def jogodormago3(guia):
       'aquele poder que você igualmente agora possui, seria ele também forte o bastante para não se corromper, seria ele \n'
       'agora a mais nova ameaça, se isso acontecer você seria responsável por ser o único capaz de detê-lo e não o fez.')
     elif guia == 'MBBA':
-        print("Você sai de perto da confusão")
+        print("Você deixa eles se entenderem, decide não participar da confusão e começa a andar despretensiosamente \n"
+      "pelo salão, faz isso para se afastar o tumulto,  passando por varias estantes de livros e já bem distante da \n"
+      "presença e outros magos, um livro te chama a atenção, nele existem letras desconhecidas, sua curiosidade o faz \n"
+      "pega-lo e abri-lo, sua áurea recém possuída agita em você e as letras começam a se tornar compreensíveis,   você \n"
+      "o lê, a partir de agora você começa a ver o mundo com mais nitidez, o que era oculto as olhos agora se revelam, \n"
+      "nada pode se esconder de você.")
     elif guia == 'MBBB':
-        print("Você entra no meio da confusão")
+        print("Você decide acabar rápido com toda a confusão, você conjura uma magia, ao redor e todos, fazendo-os \n"
+      "imóveis, você consegue êxito menos com o mago forasteiro, este se vira para você e conjura uma magia de ataque.")
 
 
 
