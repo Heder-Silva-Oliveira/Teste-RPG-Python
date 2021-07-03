@@ -98,7 +98,7 @@ if personagem['Classe'] == 'Mago':
         guia += 'A'
     if decisao1 == 2:
         guia += 'B'
-    tiktak(2)
+    tiktak(3)
     print()
     cap2mag()
     decisao2 = int(input('Qual sua decisão?'))
@@ -117,7 +117,7 @@ if personagem['Classe'] == 'Mago':
         guia += 'A'
     if decisao3 == 2:
         guia += 'B'
-    tiktak(2)
+    tiktak(3)
     print(guia)
     jogodormago3(guia)
     if guia == 'MBBB' or 'MBBA' or 'MAB':

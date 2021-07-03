@@ -151,6 +151,23 @@ def jogodorcacador2(decisao,decisao2):
         'a carne e trabalhar o couro te deixará ocupado por um longo período, tudo isso antes do inverno, esta foi sua \n'
         'ultima caçada, a próxima só na primavera. ')
 
+def jogadorcacador3(guia):
+    if guia == 'CAAA':
+        print(" ")
+    elif guia == "CAAB":
+        print('')
+    elif guia == 'CABA':
+        print('')
+    elif guia == 'CABB':
+        print('')
+    elif guia == 'CBAA':
+        print('')
+    elif guia == 'CBAB':
+        print('')
+    elif guia == 'CBBA':
+        print("")
+    elif guia == 'CBBB':
+        print("")
 
 
 def jogoguerreiro(decisao):
