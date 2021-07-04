@@ -213,3 +213,21 @@ def jogoquerreiro2(decisao, decisao2):
         'que te deixaram feliz por não sentir o mesmo que muitos deles, alguns nunca mas voltaram a ver, outros não andarão\n'
         'e a maioria nunca mais estarão entre os vivos.')
 
+
+def jogoguerreiro3(guia):
+    if guia == 'GAAA':
+        print(" ")
+    elif guia == "GAAB":
+        print('')
+    elif guia == 'GABA':
+        print('')
+    elif guia == 'GABB':
+        print('')
+    elif guia == 'GBAA':
+        print('')
+    elif guia == 'GBAB':
+        print('')
+    elif guia == 'GBBA':
+        print("")
+    elif guia == 'GBBB':
+        print("")
