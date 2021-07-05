@@ -109,6 +109,8 @@ if personagem['Classe'] == 'Mago':
         guia += 'A'
     if decisao2 == 2:
         guia += 'B'
+    tiktak(5)
+    print()
     cap3mag(guia)
     decisao3 = int(input("Qual sua decisão?: "))
     while decisao3 not in (1, 2):
@@ -118,7 +120,6 @@ if personagem['Classe'] == 'Mago':
     if decisao3 == 2:
         guia += 'B'
     tiktak(3)
-    print(guia)
     jogodormago3(guia)
     if guia == 'MBBB' or 'MBBA' or 'MAB':
         vida = 20
@@ -133,19 +134,22 @@ if personagem['Classe'] == 'Mago':
             if guia ==  "MBBA":
                 break
             cabecalho(f'\033[1;31m O inimigo ataca, via o inimogo {inimigo}\033[m')
-            tiktak(3)
+            tiktak(6)
             inimigoataq = randint(1, 20)
             dano = randint(1, 6)
             vida -= dano
             batalhadefmag(inimigoataq, dano)
             cabecalho(f"\033[1;34m Você ataca, minha vida {vida}\033[m")
-            tiktak(3)
+            tiktak(6)
             meuataq = 2 + randint(1, 20)
             dano = randint(1, 6)
             inimigo -= dano
             batalhaatqmag(meuataq, dano)
             if vida <= 0:
-                print('GAME OVER')
+                print("A batalha se inicia, agora sera rodado um dado de 20 lados, \n"
+                      "se você acertar mais que 15, você consegue atingir o inimigo, \n"
+                      "e depois um dado de 6 lados sera lançado para definir quanto de\n"
+                      "dano você eu, e o mesmo serve para ele te atacar")
                 break
             if inimigo <= 0:
                 print('Você vence o adversario')
