@@ -16,6 +16,26 @@ def cap2cac():
     menu(escolha)
 
 
+def cap3cac(guia):
+    if guia == "MAA":
+        cabecalho('')
+        sleep(5)
+        escolha = ('')
+        menu(escolha)
+    if guia == "MAB":
+        cabecalho('')
+    if guia == "MAB":
+        cabecalho('')
+        sleep(5)
+        escolha = ('')
+        menu(escolha)
+    if guia == "MBB":
+        cabecalho(',')
+        sleep(5)
+        escolha = ('')
+        menu(escolha)
+
+
 
 
 

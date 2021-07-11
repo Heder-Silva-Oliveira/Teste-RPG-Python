@@ -16,3 +16,23 @@ def cap2gue():
     sleep(5)
     escolha2 = ('Você vai ao encontro beber sobre a vitoria', 'Você vai até os feridos consola-los')
     menu(escolha2)
+
+
+def cap3gue(guia):
+    if guia == "MAA":
+        cabecalho('')
+        sleep(5)
+        escolha = ('')
+        menu(escolha)
+    if guia == "MAB":
+        cabecalho('')
+    if guia == "MAB":
+        cabecalho('')
+        sleep(5)
+        escolha = ('')
+        menu(escolha)
+    if guia == "MBB":
+        cabecalho('')
+        sleep(5)
+        escolha = ('')
+        menu(escolha)
