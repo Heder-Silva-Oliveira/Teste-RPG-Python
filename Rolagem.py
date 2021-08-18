@@ -1,7 +1,7 @@
 from random import randint
 
 
-def dado4(itens):
+def itens(itens):
     itens = randint(1, 4)
     if itens == 1:
         print('Você encontra uma bolsa com 20 moedas de ouro')
