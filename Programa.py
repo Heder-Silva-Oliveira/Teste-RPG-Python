@@ -199,4 +199,7 @@ elif personagem['Classe'] == 'Guerreiro':
         guia += 'A'
     if decisao2 == 2:
         guia += 'B'
+
+print('Suas escolhe te trouxeram até aqui, o que poderia resultar de ecolhas diferentes? \n'
+      'vovê pode rejogar e fazer nova escolhas.')
 print(guia)
