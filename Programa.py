@@ -177,6 +177,7 @@ elif personagem['Classe'] == 'Caçador':
         guia += 'A'
     if decisao2 == 2:
         guia += 'B'
+
 elif personagem['Classe'] == 'Guerreiro':
     guia = 'G'
     cap1gue()
@@ -194,6 +195,8 @@ elif personagem['Classe'] == 'Guerreiro':
     decisao2 = int(input('Qual sua decisão?'))
     while decisao2 not in (1, 2):
         decisao2 = int(input('Qual sua decisão?: '))
+    print("No seu caminho você encontra algo que te chama a atenção, você para e...")
+    itens()
     jogoquerreiro2(decisao1, decisao2)
     if decisao2 == 1:
         guia += 'A'
