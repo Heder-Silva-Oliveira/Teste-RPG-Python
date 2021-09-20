@@ -22,7 +22,7 @@ def cap3gue(guia):
     if guia == "MAA":
         cabecalho('')
         sleep(5)
-        escolha = ('')
+        escolha = ('Preciso de criatividade')
         menu(escolha)
     if guia == "MAB":
         cabecalho('')
