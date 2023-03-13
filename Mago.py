@@ -12,9 +12,9 @@ def cap1mag():
 
 
 def cap2mag():
-    cabecalho('Ao seu redor varios outros magos, a maioria ja havia desistido, e apenas um ainda continua o intento')
+    cabecalho('Ao seu redor vários outros magos, a maioria já havia desistido, e apenas um ainda continua o intento')
     sleep(5)
-    escolha2 = ('Você decide deixa-lo concentrado em conjurar a aurea', 'Você tenta discretamente desconcentra-lo')
+    escolha2 = ('Você decide deixa-lo concentrado em conjurar a áurea', 'Você tenta discretamente desconcentra-lo')
     menu(escolha2)
 
 
@@ -34,5 +34,5 @@ def cap3mag(guia):
     if guia == "MBB":
         cabecalho('Você sabe que aquela confusão é por sua culpa, e outra pessoa pode se ferir por sua culpa,')
         sleep(5)
-        escolha = ('Você  não se mete na confusão', 'Você intervém na confusão')
+        escolha = ('Você não se mete na confusão', 'Você intervém na confusão')
         menu(escolha)

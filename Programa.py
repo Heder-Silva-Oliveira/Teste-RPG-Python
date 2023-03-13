@@ -133,7 +133,7 @@ if personagem['Classe'] == 'Mago':
                 break
             if guia ==  "MBBA":
                 break
-            cabecalho(f'\033[1;31m O inimigo ataca, via o inimogo {inimigo}\033[m')
+            cabecalho(f'\033[1;31m O inimigo ataca, vida do inimigo {inimigo}\033[m')
             tiktak(6)
             inimigoataq = randint(1, 20)
             dano = randint(1, 6)
@@ -146,13 +146,13 @@ if personagem['Classe'] == 'Mago':
             inimigo -= dano
             batalhaatqmag(meuataq, dano)
             if vida <= 0:
-                print("A batalha se inicia, agora sera rodado um dado de 20 lados, \n"
+                print("A batalha se inicia, agora será rodado um dado de 20 lados, \n"
                       "se você acertar mais que 15, você consegue atingir o inimigo, \n"
-                      "e depois um dado de 6 lados sera lançado para definir quanto de\n"
+                      "e depois um dado de 6 lados será lançado para definir quanto de\n"
                       "dano você eu, e o mesmo serve para ele te atacar")
                 break
             if inimigo <= 0:
-                print('Você vence o adversario')
+                print('Você vence o adversário')
 
 
 elif personagem['Classe'] == 'Caçador':

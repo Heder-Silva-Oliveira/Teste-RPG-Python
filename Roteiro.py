@@ -3,18 +3,18 @@ def intro(txt):
         print("  O salão esta em silencio, todos estão focando suas energias para invocar, uma áurea \n" 
         ",porem desta vez não é uma qualquer, esta é superior, você esta sentado no meio do pentagrama\n" 
         "quando percebe uma perturbação nos seus sentidos, você já não consegue distinguir o que é \n" 
-        "olfato ou tato, oque é paladar ou audição, tudo esta confuso, você soa com frio, sente \n" 
-        "sede estando saciado você não sente o chão, você são sente o ar, você não sente nada.")
+        "olfato, tato, paladar ou audição, tudo esta confuso, você soa com frio, sente \n" 
+        "sede mesmo estando saciado, você não sente o chão, você não sente o ar, você não sente nada.")
     if txt == 'Caçador':
         print("  As folhas farfalham ao vendo, pássaros grasnam e esses são os sons mais altos que você\n" 
         "ouve porem seus longos anos em florestam e dão a habilidade de escutar além disso, sons de\n" 
         "cacos pisando em folhas e galhos secos, e barulho típico que para você já é conhecido o chão torna-se\n" 
-        "claros aos seus ouvidos, e uma grata sensação de vitoria vem a tona, a final você acertou com precisão\n" 
+        "claros aos seus ouvidos, e uma grata sensação de vitória vem a tona, a final você acertou com precisão\n" 
         "o local da emboscada, mas você já esta familiarizado com isso e não deixa a emoção tomar conta. ")
     if txt == 'Guerreiro':
         print('O calor da batalha já fora muitas vezes testado por você, os gritos de dor as suplicas pela vida\n'
         'tudo isso você já conhece, mas esta batalha te parece mais difícil, talvez pela quantidade de inimigos\n'
-        'ou também pelo calor do sol que os castiga, mas o certo é, você esta cansado  mais de uma vez no ultimo\n'
+        'ou também pelo calor do sol que os castiga, mas o certo é, você esta cansado  mais de uma vez no último\n'
         'você consegue desviar fios de estadas e machados, você vê ao seu lado camaradas morrendo, camaradas matando\n'
         'suas forças só estão se mantendo graças a seu condicionamento físico e sua coragem, porem tudo tem seu limite.')
 
@@ -46,12 +46,12 @@ def jogodormago2(decisao,decisao2):
         'você um grande mago não conseguir e esse forasteiro sim, você rapidamente olha para o lado e vê um grande \n'
         'candelabro com muitas velas, uma pequena magia sai de seus dedos na direção, no momento em que ninguém te \n'
         'observa, o candelabro cai e a grande cortina próximo dele se incendeia, causando o espanto de todos, isso foi \n'
-        'suficiente para desconcentrar o remanescente,e dele se levanta furioso com olhos flamejantes, olha para \n'
+        'suficiente para desconcentrar o remanescente, e dele se levanta furioso com olhos flamejantes, olha para \n'
         'todos e foca os olhos em você.')
     elif decisao == 2 and decisao2 == 1:
         #BA
-        print('Você se levanta glorioso você é um dos poucos no mundo a ter uma áurea superior,  ao seu redor  vários\n'
-        'outros magos  estão no salão e alguns se aproximam te perguntando se conseguiu o feito, e você não esconde e\n'
+        print('Você se levanta glorioso você é um dos poucos no mundo a ter uma áurea superior, ao seu redor vários\n'
+        'outros magos estão no salão e alguns se aproximam te perguntando se conseguiu o feito, e você não esconde e\n'
         'revela que sim, você é parabenizado, e alguns mais jovens até mesmo demonstram interesse em aprender mais com\n'
         'você, enquanto isso o mago que ainda tentava conjurar a áurea se levanta com um sorriso malévolo no rosto, e sai do\n'
         'salão sem falar com ninguém.')
@@ -71,7 +71,7 @@ def jogodormago3(guia):
       "profanos e alguns com rostos entalhados na capa, estão por toda parte pergaminhos com selos macabros, estão amontoados\n"
       "em prateleiras , ao caminhar mais para o fundo da sala, um som como de um vento passa por você e a porta que \n"
       "outrora aberta, simplesmente deixa de existir você esta selado dentro da câmara, chamas azuis se acendem empiras\n"
-      "espalhadas pela sala, e um grande livro centrado em um pedestal se abre te convidando a lê-lo.  ")
+      "espalhadas pela sala, e um grande livro centrado em um pedestal se abre, te convidando a lê-lo.  ")
     elif guia == "MAAB":
         print('Você não se sente seguro sendo atraído por essa oportunidade, os anos já vividos te deram esse discernimento,\n'
       'você já se sente cansado, foi árduo a tentativa de conjuração, você vai a caminho da porta para sair do salão \n'
@@ -95,9 +95,9 @@ def jogodormago3(guia):
       'agora a mais nova ameaça?, se isso acontecer você seria responsável por ser o único capaz de detê-lo e não o fez.')
     elif guia == 'MBBA':
         print("Você deixa eles se entenderem, decide não participar da confusão e começa a andar despretensiosamente \n"
-      "pelo salão, faz isso para se afastar o tumulto,  passando por varias estantes de livros e já bem distante da \n"
+      "pelo salão, faz isso para se afastar o tumulto, passando por varias estantes de livros e já bem distante da \n"
       "presença e outros magos, um livro te chama a atenção, nele existem letras desconhecidas, sua curiosidade o faz \n"
-      "pega-lo e abri-lo, sua áurea recém possuída agita em você e as letras começam a se tornar compreensíveis,   você \n"
+      "pega-lo e abri-lo, sua áurea recém possuída agita em você e as letras começam a se tornar compreensíveis,  você \n"
       "o lê, a partir de agora você começa a ver o mundo com mais nitidez, o que era oculto as olhos agora se revelam, \n"
       "nada pode se esconder de você.")
     elif guia == 'MBBB':
@@ -123,18 +123,18 @@ def jogocacador(decisao):
 def jogodorcacador2(decisao,decisao2):
     if decisao and decisao2 == 1:
         #AA
-        print('Você chega ao centro do vilarejo e segue ate o açougueiro e tira da garupa de seu cavalo grande parte\n'
+        print('Você chega ao centro do vilarejo e segue até o açougueiro e tira da garupa de seu cavalo grande parte\n'
         'da carne do servo e negocia com o comerciante, no fim você teve a impressão de ter se saído melhor na negociação\n'
         'que o açougueiro, saindo de lá você chega ao artesão para vender parte do couro obtido, feito a venda você sai\n'
-        'com um grande sorriso, esta vez o negocio foi vantajoso, e por fim passa até o comerciante do vilarejo este que\n'
+        'com um grande sorriso, esta vez o negócio foi vantajoso, e por fim passa até o comerciante do vilarejo este que\n'
         'compra e vende as mais variadas coisas, você consegue convence-lo a comprar a grande galhada do servo, mas desta\n'
         'vez o comerciante sai ganhando e com ampla vantagem')
     elif decisao == 1 and decisao2 == 2:
         #AB
         print('Você chega a sua casa com segurança graças ao seu conhecimento da floresta sabendo os locais a serem \n'
-        'evitados, você logo desce do cavalo e começa a preparar a carne  o couro guardando de forma adequada para \n'
-        'passar o inverno, terminando, você já a noite acende a lareira e prepara sua janta,  mas um cheiro estranho \n'
-        'vindo de cosa da casa de coloca em alerta é cheiro  de predador , algo esta rondando sua casa, você já é capaz\n’'
+        'evitados, você logo desce do cavalo e começa a preparar a carne o couro guardando de forma adequada para \n'
+        'passar o inverno, terminando, você já a noite acende a lareira e prepara sua janta, mas um cheiro estranho \n'
+        'vindo de cosa da casa de coloca em alerta é cheiro de predador , algo esta rondando sua casa, você já é capaz\n’'
         'de ouvir os sons dos passos alternando entre duas e quatro patas, um rosnado nunca antes ouvido por você é \n'
         'emitido pelo animal, o medo te visita novamente depois de muito tempo, e o arrependimento e ter trazido toda \n'
         'essa carne para casa vem a sua cabeça.')
@@ -149,7 +149,7 @@ def jogodorcacador2(decisao,decisao2):
         print('Você chega a sua casa sem dinheiro porque considerou pouco demais para vender, é preciso deixar carne \n'
         'para passar o inverno, você é sozinho, não tem família, não precisa de muita carne para se manter, mas salgar\n'
         'a carne e trabalhar o couro te deixará ocupado por um longo período, tudo isso antes do inverno, esta foi sua \n'
-        'ultima caçada, a próxima só na primavera. ')
+        'última caçada, a próxima será apenas na primavera. ')
 
 def jogadorcacador3(guia):
     if guia == 'CAAA':
@@ -195,9 +195,9 @@ def jogoquerreiro2(decisao, decisao2):
     elif decisao == 1 and decisao2 == 2:
         #AB
         print('A adentrar a grande tenta do hospital você encontra vários amigos algum agonizando ante a morte outros\n'
-        'em profundo sono induzido, ao continuar caminhando você escuta um murmúrio diferente alguém esta gemendo de\n'
+        'em profundo sono induzido, ao continuar caminhando você escuta um murmúrio diferente alguém está gemendo de\n'
         'dor mas isso deveria ser comum naquele ambiente, porém com mais atenção você percebe que não é gemido de dor\n'
-        'física, é um tormento mental, ao olhar para o paciente o rosto dele esta em volto em um lençol, ele esta\n'
+        'física, é um tormento mental, ao olhar para o paciente o rosto dele esta em volto em um lençol, ele está\n'
         'separado deitado isolado em um canto da tenda')
     elif decisao == 2 and decisao2 == 1:
         #BA
