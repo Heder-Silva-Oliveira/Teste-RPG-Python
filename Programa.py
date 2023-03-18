@@ -98,7 +98,7 @@ if personagem['Classe'] == 'Mago':
         guia += 'A'
     if decisao1 == 2:
         guia += 'B'
-    tiktak(3)
+    tiktak(10)
     print()
     cap2mag()
     decisao2 = int(input('Qual sua decisão?'))
@@ -109,7 +109,7 @@ if personagem['Classe'] == 'Mago':
         guia += 'A'
     if decisao2 == 2:
         guia += 'B'
-    tiktak(5)
+    tiktak(10)
     print()
     cap3mag(guia)
     decisao3 = int(input("Qual sua decisão?: "))
@@ -119,7 +119,7 @@ if personagem['Classe'] == 'Mago':
         guia += 'A'
     if decisao3 == 2:
         guia += 'B'
-    tiktak(3)
+    tiktak(10)
     jogodormago3(guia)
     if guia == 'MBBB' or 'MBBA' or 'MAB':
         vida = 20
@@ -134,13 +134,13 @@ if personagem['Classe'] == 'Mago':
             if guia ==  "MBBA":
                 break
             cabecalho(f'\033[1;31m O inimigo ataca, vida do inimigo {inimigo}\033[m')
-            tiktak(6)
+            tiktak(10)
             inimigoataq = randint(1, 20)
             dano = randint(1, 6)
             vida -= dano
             batalhadefmag(inimigoataq, dano)
             cabecalho(f"\033[1;34m Você ataca, minha vida {vida}\033[m")
-            tiktak(6)
+            tiktak(10)
             meuataq = 2 + randint(1, 20)
             dano = randint(1, 6)
             inimigo -= dano

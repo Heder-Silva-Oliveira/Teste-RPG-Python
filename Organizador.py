@@ -107,7 +107,7 @@ def batalhaatqfle(meuataq):
 def batalhadefmag(inimigoataq, dano):
     print(f'O ataque inimigo foi de {inimigoataq}, minha CA é de {12}')
     if inimigoataq >= 12:
-        print('Você foi atingio')
+        print('Você foi atingido')
         if dano == 1:
             print('O oponente te empurra para trás com um golpe cinético')
         if dano == 2:
