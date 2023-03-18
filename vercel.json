@@ -1,6 +1,5 @@
 {
   "build": {
-    "src": "Programa.py",
     "use": "@vercel/python"
   },
   "routes": [
